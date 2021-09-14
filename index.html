@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="id" style="min-height: 100%; ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Diri</title>
+    <style>
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(#41ff90, #41ff906b);
+        }
+
+        .container {
+            margin: 0 auto;
+            padding: 20px;
+            width: 70%;
+            min-height: 100vh;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        h2 {
+            font-size: 2em;
+        }
+
+        .title, .subtitle {
+            margin: 0;
+            padding: 10px 10px;
+            text-align: center;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .foto {
+            height: 250px;
+            margin: 20px;
+        }
+
+        .data-pribadi {
+            text-align: left;
+            margin: 20px;
+        }
+
+        caption,
+        h3 {
+            font-weight: bolder;
+            font-size: 1.5em;
+            margin: 10px;
+        }
+
+        tr, dd, dt {
+            font-size: 1.1em;
+
+        }
+
+        dd {
+            margin-left: 0;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        dt {
+            display: flex;
+            width: 100%;
+            font-weight: bold;
+        }
+
+        .year {
+            margin-left: auto;
+            font-weight: bolder;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding-right: 10px;
+        }
+
+        .data-pendidikan, .data-kontak {
+            width: 90%;
+        }
+
+        .data-kontak {
+            table-layout: fixed;
+        }
+
+        .btn {
+            text-align: right;
+        }
+
+        .wrapper {
+            width: 90%;
+        }
+
+        .link-game {
+            color: #008337;
+            font-weight: bold;
+        }
+
+        .link-game:hover {
+            color: #01aa47; 
+        }
+
+        button {
+            width: 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Profil diri</h1>
+        <h2 class="subtitle">Muhammad Nur Abdurrauf</h2>
+
+        <section id="biodata">
+            <img src="./img/Foto.jpg" alt="Foto diri" class="foto">
+            <table class="data-pribadi">
+                <caption>Data Diri</caption>
+                <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td>Muhammad Nur Abdurrauf</td>
+                </tr>
+                <tr>
+                    <td>NRP</td>
+                    <td>:</td>
+                    <td>05111940000140</td>
+                </tr>
+                <tr>
+                    <td>Tempat Lahir</td>
+                    <td>:</td>
+                    <td>Kota Malang</td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>:</td>
+                    <td>23 September 2000</td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td>Laki-Laki</td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td>:</td>
+                    <td>Islam</td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>:</td>
+                    <td>Jalan Raya Banyuwangi, Kampung Semajid, Desa seletreng, Kecamatan kapongan, Situbondo, Jawa
+                        Timur</td>
+                </tr>
+                <tr>
+                    <td>Pekerjaan</td>
+                    <td>:</td>
+                    <td>Mahasiswa</td>
+                </tr>
+                <tr>
+                    <td>Kewarganegaraan</td>
+                    <td>:</td>
+                    <td>Indonesia</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="pendidikan">
+            <table class="data-pendidikan">
+                <caption>Riwayat Pendidikan</caption>
+                <tr>
+                    <th>Jenjang</th>
+                    <th>Keterangan</th>
+                    <th>Tahun</th>
+                </tr>
+                <tr>
+                    <td>Sekolah Menengah Pertama</td>
+                    <td>SMP 1 Situbondo</td>
+                    <td>2013 - 2016</td>
+                </tr>
+                <tr>
+                    <td>Sekolah Menengah Atas</td>
+                    <td>SMA 1 Situbondo</td>
+                    <td>2016 - 2019</td>
+                </tr>
+                <tr>
+                    <td>Perguruan Tinggi</td>
+                    <td>Institut Teknologi Sepuluh Nopember</td>
+                    <td>2019 -</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="pengalaman">
+            <div class="wrapper">
+                <h3 class="subtitle">Pengalaman</h3>
+                <dl class="data-pengalaman">
+                    <dt>RushHourDream <span class="year">2018 - Sekarang</span></dt>
+                    <dd>Sebagai game programmer, mengembangkan game untuk berbagai keperluan</dd>
+                    <dt>KEMASS Roadshow <span class="year">2020</span></dt>
+                    <dd>Sebagai presenter, mengenalkan ITS pada siswa SMA di Situbondo</dd>
+                    <dt>Smasa Computer & Networking <span class="year">2017 - 2018</span></dt>
+                    <dd>Sebagai admin, mengajarkan game development</dd>
+                </dl>
+            </div>
+        </section>
+
+        <section id="prestasi">
+            <div class="wrapper">
+                <h3 class="subtitle">Prestasi</h3>
+                <dl class="data-prestasi">
+                    <dt>ITS Technovation Festival<span class="year">2020</span></dt>
+                    <dl><a class="link-game" href="https://www.youtube.com/watch?v=GgdzjRiSRyY">Safari Spot</a> berhasil meraih juara 2</dl>
+                    <dt>PGD Championship<span class="year">2020</span></dt>
+                    <dl><a class="link-game" href="https://rushhourdream.itch.io/hands-up">Hand's Up!</a> berhasil mencapai finalis</dl>
+                    <dt>Digifest Jatim<span class="year">2019</span></dt>
+                    <dl><a class="link-game" href="https://rushhourdream.itch.io/pull-over">Pull Over!</a> berhasil meraih juara 3</dl>
+                    <dt>SEAMEO Creative Camp<span class="year">2018</span></dt>
+                    <dl><a class="link-game" href="https://rushhourdream.itch.io/spell-belle">Spell Belle</a> berhasil meraih juara 2</dl>
+                </dl>
+            </div>
+        </section>
+
+        <section id="kontak">
+            <table class="data-kontak">
+                <caption>Kontak & Sosial Media</caption>
+                <col width="20%">
+                <col width="30%">
+                <col width="50%">
+                <tr>
+                    <td>Email</td>
+                    <td>muh.nur.abdurrauf@gmail.com</td>
+                    <td class="btn"><button><a class="link-btn" href="mailto:muh.nur.abdurrauf@gmail.com">Kirim Email</a></button></td>
+                </tr>
+                <tr>
+                    <td>Nomor HP/Whatsapp</td>
+                    <td>082302345184</td>
+                    <td class="btn"><button><a class="link-btn" href="https://wa.me/6282302345184">Kirim WA</a></button></td>
+                </tr>
+                <tr>
+                    <td>Instagram</td>
+                    <td>@mnurabdurrauf</td>
+                    <td class="btn"><button><a class="link-btn" href="https://www.instagram.com/mnurabdurrauf/">Buka IG</a></button></td>
+                </tr>
+                <tr>
+                    <td>Linkedin</td>
+                    <td>Muhammad Nur Abdurrauf</td>
+                    <td class="btn"><button><a class="link-btn" href="https://www.linkedin.com/in/muhammad-a-a0b96a141/">Buka Linkedin</a></button></td>
+                </tr>
+                <tr>
+                    <td>Github</td>
+                    <td>raassh-23</td>
+                    <td class="btn"><button><a class="link-btn" href="https://github.com/raassh-23">Buka Github</a></button></td>
+                </tr>
+            </table>
+        </section>
+    </div>
+
+</body>
+
+</html>
